@@ -291,6 +291,10 @@ section {
   line-height: 2;
 }
 
+.contact a {
+  text-decoration: none;
+}
+
 
 /*
 =============================
