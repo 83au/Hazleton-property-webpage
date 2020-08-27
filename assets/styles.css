@@ -20,8 +20,7 @@
 :root {
   --color-white: #eee;
   --color-black: #222;
-  --color-primary: #9900cc;
-  --color-gradient: linear-gradient(to bottom right, #aa11dd, #9900cc)
+  --color-primary: gray;
 }
 
 html {
@@ -59,7 +58,7 @@ section {
   display: flex;
   justify-content: center;
   
-  background: var(--color-gradient);
+  background: var(--color-primary);
   height: 100vh;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
   color: var(--color-white);
@@ -215,7 +214,7 @@ section {
   display: block;
   margin: 2.5rem auto;
   padding: .6rem 1.3rem;
-  background: var(--color-gradient);
+  background: var(--color-primary);
   border-radius: 6px;
   border: none;
   color: var(--color-white);
